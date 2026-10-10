@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi cokelat panas mocha">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <ellipse cx="100" cy="152" rx="54" ry="10" fill="#e6d7c4"/>
+  <rect x="60" y="82" width="80" height="62" rx="14" fill="#f7efe6"/>
+  <path d="M140 98h9a15 15 0 0 1 0 30h-9" fill="none" stroke="#efe4d6" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="100" cy="82" rx="40" ry="12" fill="#fdfaf6" stroke="#e2d5c3" stroke-width="2"/>
+  <ellipse cx="100" cy="83" rx="33" ry="9" fill="#4b2b18"/>
+  <path d="M84 82c6-7 22-7 28 0-6 6-22 6-28 0z" fill="#f3e3cd"/>
+  <path d="M78 120c8 5 36 5 44 0v10c-8 5-36 5-44 0z" fill="#5c3520" opacity=".25"/>
+</svg>

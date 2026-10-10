@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161616">
+  
+  <meta name="description" content="Kontak Kopi Mooka: alamat Jl. Goria Mooka, jam buka, dan formulir pesan untuk pesanan besar.">
+  <title>Kontak - Kopi Mooka</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Kopi Mooka">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+</head>
+<body>
+
+  <div class="splash" id="splash" role="status" aria-label="Memuat Kopi Mooka">
+    <img class="splash__img" src="assets/img/loading-kopi-mooka.jpeg" alt="Kopi Mooka" width="399" height="501">
+    <span class="splash__loader" aria-hidden="true"></span>
+    <p class="splash__percent" role="status">Memuat 0%</p>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logoo.png" alt="Logo Kopi Mooka" width="40" height="40">
+        <span class="brand__text">
+          <strong>Kopi Mooka</strong>
+          <small>Roastery &amp; Kafe</small>
+        </span>
+      </a>
+      <button class="navtoggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="topnav">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="topnav" id="topnav">
+        <a href="index.html">Beranda</a>
+        <a href="menu.html">Menu</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html" aria-current="page">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="wrap pagehead__inner">
+      <p class="eyebrow">Hubungi</p>
+      <h1>Kontak Kopi Mooka</h1>
+      <p>Datang langsung atau isi formulir di bawah. Untuk pesanan besar kami membalas di hari yang sama.</p>
+    </div>
+  </section>
+
+  <main class="wrap section">
+    <div class="split">
+      <dl class="infos" style="grid-template-columns:1fr">
+        <div class="info">
+          <dt>Alamat</dt>
+          <dd><a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a></dd>
+        </div>
+        <div class="info">
+          <dt>Email</dt>
+          <dd><a href="mailto:halo@kopimooka.id">halo@kopimooka.id</a></dd>
+        </div>
+        <div class="info">
+          <dt>Jam buka</dt>
+          <dd>Senin sampai Jumat 07.00 - 22.00<br>Sabtu Minggu 08.00 - 21.00</dd>
+        </div>
+      </dl>
+
+      <form class="form" id="form-kontak" novalidate>
+        <p class="eyebrow">Formulir</p>
+        <h2 style="font-size:1.5rem">Kirim Pesan</h2>
+
+        <div class="field">
+          <label for="nama">Nama</label>
+          <input id="nama" name="nama" type="text" placeholder="Nama lengkap" required>
+        </div>
+
+        <div class="field">
+          <label for="hp">Nomor HP</label>
+          <input id="hp" name="hp" type="tel" placeholder="08xx-xxxx-xxxx" required>
+        </div>
+
+        <div class="field">
+          <label for="topik">Topik</label>
+          <select id="topik" name="topik">
+            <option>Pesanan tempat</option>
+            <option>Pesanan kantor</option>
+            <option>Event dan gathering</option>
+            <option>Beli biji retail</option>
+            <option>Kerja sama</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" placeholder="Contoh: 20 cup Kopi Mooka Latte, diantar pukul 09.00."></textarea>
+        </div>
+
+        <button class="btn btn--primary" type="submit">Kirim Pesan</button>
+
+        <p class="form__ok" id="form-ok">
+          Terima kasih. Pesan Anda sudah tercatat di halaman ini. Untuk hasil
+          lebih cepat, kirim juga lewat WhatsApp.
+        </p>
+
+        <p class="form__note">
+          Formulir ini hanya berjalan di browser dan belum mengirim data ke server.
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <section class="band cta">
+    <div class="wrap">
+      <p class="eyebrow">Sudah lihat menunya?</p>
+      <h2>Sudah Lihat Menunya?</h2>
+      <p>Semua harga dan catatan bahan ada di halaman menu.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="menu.html">Buka Menu</a>
+        <a class="btn btn--ghost" href="index.html">Kembali ke Beranda</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p>&copy; <span id="year">2026</span> Kopi Mooka. <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.</p>
+      <p class="foot__meta"><a href="mailto:halo@kopimooka.id">halo@kopimooka.id</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <button class="totop" id="totop" type="button" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+</body>
+</html>

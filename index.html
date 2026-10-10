@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161616">
+  
+  <meta name="description" content="Kopi Mooka adalah roastery dan kafe di Bandung dengan biji arabika pilihan, menu kopi, dan pastry yang dipanggang setiap pagi.">
+  <title>Kopi Mooka - Roastery dan Kafe di Bandung</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Kopi Mooka">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+</head>
+<body>
+
+  <div class="splash" id="splash" role="status" aria-label="Memuat Kopi Mooka">
+    <img class="splash__img" src="assets/img/loading-kopi-mooka.jpeg" alt="Kopi Mooka" width="399" height="501">
+    <span class="splash__loader" aria-hidden="true"></span>
+    <p class="splash__percent" role="status">Memuat 0%</p>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logoo.png" alt="Logo Kopi Mooka" width="40" height="40">
+        <span class="brand__text">
+          <strong>Kopi Mooka</strong>
+          <small>Roastery &amp; Kafe</small>
+        </span>
+      </a>
+      <button class="navtoggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="topnav">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="topnav" id="topnav">
+        <a href="index.html" aria-current="page">Beranda</a>
+        <a href="menu.html">Menu</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <p class="eyebrow">Roastery &amp; Kafe</p>
+      <h1>Kopi Pilihan, Dipanggang Pagi Hari.</h1>
+      <p class="lede">
+        Biji kopi arabika dari dataran tinggi, disangrai setiap minggu dan
+        diseduh saat Anda memesan, bukan disimpan di rak.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="menu.html">Lihat Menu dan Harga</a>
+        <a class="btn btn--ghost" href="tentang.html">Tentang Kami</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>Biji</dt><dd>Arabika &amp; Robusta</dd></div>
+        <div><dt>Roast</dt><dd>Light sampai Dark</dd></div>
+        <div><dt>Buka</dt><dd>07.00 sampai 22.00</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <main>
+    <section class="wrap section">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow">Kenapa Kopi Mooka</p>
+          <h2>Diseduh Fresh, Tidak Dipimpan</h2>
+        </div>
+        <p class="section__note">Tiga hal yang selalu kami jaga di setiap cup.</p>
+      </div>
+      <div class="features">
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M12 18h40L32 42 12 18z"/>
+              <rect x="26" y="42" width="12" height="9" rx="2"/>
+              <rect x="20" y="51" width="24" height="6" rx="3"/>
+            </svg>
+          </span>
+          <h3>Manual Brew Harian</h3>
+          <p>V60 dan Chemex diseduh per pesanan dengan timbangan digital, jadi rasa kopi masih utuh.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M52 12C30 15 16 27 16 41c0 5 2 8 2 8s7-17 25-23c0 0-15 8-20 21 21 4 29-13 29-35z"/>
+              <path d="M14 54c8-16 20-26 34-32" fill="none" stroke="#ffffff" stroke-width="2.5" opacity=".5"/>
+            </svg>
+          </span>
+          <h3>Fresh Milk Setiap Hari</h3>
+          <p>Susu datang setiap pagi dari peternak lokal, bukan susu instan. Tidak ada pemanis buatan.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M8 40c0-12 11-20 24-20s24 8 24 20v7a4 4 0 0 1-4 4H12a4 4 0 0 1-4-4v-7z"/>
+              <circle cx="24" cy="33" r="3" fill="#ffffff" opacity=".55"/>
+              <circle cx="38" cy="31" r="3" fill="#ffffff" opacity=".55"/>
+            </svg>
+          </span>
+          <h3>Baked Every Morning</h3>
+          <p>Croissant dan roti banana keluar dari oven pukul 06.00, habis dalam tiga jam.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap band__inner">
+        <div>
+          <p class="eyebrow">Menu</p>
+          <h2>13 Menu, Harga Terang</h2>
+        </div>
+        <div>
+          <p class="band__text">
+            Dari kopi signature sampai manual brew, semuanya memakai biji pilihan
+            dan harga yang sudah termasuk pajak. Buka halaman menu untuk melihat
+            catatan bahan setiap menu.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--ghost" href="menu.html">Buka Halaman Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap cta">
+        <p class="eyebrow">Mampir atau Hubungi</p>
+        <h2>Punya Pesanan Besar?</h2>
+        <p>
+          Kami melayani event kantor, rapat, dan reseller. Kirim detail pesanan
+          lewat halaman kontak atau datang langsung ke <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="kontak.html">Hubungi Kami</a>
+          <a class="btn btn--ghost" href="menu.html">Lihat Menu</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p>&copy; <span id="year">2026</span> Kopi Mooka. <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.</p>
+      <p class="foot__meta"><a href="mailto:halo@kopimooka.id">halo@kopimooka.id</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <button class="totop" id="totop" type="button" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+</body>
+</html>

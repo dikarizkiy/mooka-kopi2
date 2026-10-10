@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi cangkir americano">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <ellipse cx="100" cy="150" rx="58" ry="11" fill="#e6d7c4"/><ellipse cx="100" cy="147" rx="58" ry="11" fill="#f2e8da"/>
+  <rect x="60" y="84" width="80" height="58" rx="13" fill="#faf5ee"/>
+  <rect x="60" y="120" width="80" height="22" rx="13" fill="#f1e7d9"/>
+  <path d="M140 98h9a15 15 0 0 1 0 30h-9" fill="none" stroke="#f2e9dd" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="100" cy="84" rx="40" ry="12" fill="#fdfaf6" stroke="#e2d5c3" stroke-width="2"/>
+  <ellipse cx="100" cy="85" rx="33" ry="9" fill="#4a2c17"/>
+  <ellipse cx="92" cy="83" rx="12" ry="3" fill="#8a5a34" opacity=".7"/>
+  <path d="M88 62c0-10 9-10 9-20s-9-10-9-20" fill="none" stroke="#c9b8a4" stroke-width="4" stroke-linecap="round" opacity=".65"/><path d="M108 64c0-8 8-8 8-16s-8-8-8-16" fill="none" stroke="#c9b8a4" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+</svg>

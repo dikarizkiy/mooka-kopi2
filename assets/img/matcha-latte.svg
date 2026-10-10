@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi matcha latte">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <ellipse cx="100" cy="150" rx="58" ry="11" fill="#e6d7c4"/><ellipse cx="100" cy="147" rx="58" ry="11" fill="#f2e8da"/>
+  <rect x="60" y="84" width="80" height="58" rx="13" fill="#faf5ee"/>
+  <rect x="60" y="120" width="80" height="22" rx="13" fill="#f1e7d9"/>
+  <path d="M140 98h9a15 15 0 0 1 0 30h-9" fill="none" stroke="#f2e9dd" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="100" cy="84" rx="40" ry="12" fill="#fdfaf6" stroke="#e2d5c3" stroke-width="2"/>
+  <ellipse cx="100" cy="85" rx="33" ry="9" fill="#8fae5f"/>
+  <ellipse cx="92" cy="83" rx="11" ry="3" fill="#c3d79a" opacity=".85"/>
+  <path d="M118 52l16 16-8 8-16-16z" fill="#e6dcc8"/>
+  <path d="M124 46c8-4 14 0 16 6-6 2-12 0-16-6z" fill="#cbb894"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi chemex">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <rect x="62" y="146" width="76" height="8" rx="4" fill="#d9c7b1"/>
+  <path d="M70 40h60l-10 58c-4 12-14 20-20 20s-16-8-20-20L70 40z" fill="#f2f7f8" opacity=".92"/>
+  <path d="M74 74h52l-7 26c-3 10-11 16-19 16s-16-6-19-16l-7-26z" fill="#a9714b"/>
+  <rect x="60" y="116" width="80" height="12" rx="6" fill="#e7dbca"/>
+  <rect x="60" y="40" width="80" height="12" rx="6" fill="#fbf7f1"/>
+  <rect x="52" y="46" width="96" height="6" rx="3" fill="#d9c7b1"/>
+  <path d="M100 24c0-8 7-8 7-16" fill="none" stroke="#c9b8a4" stroke-width="3.5" stroke-linecap="round" opacity=".5"/>
+</svg>

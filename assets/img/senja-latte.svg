@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi secangkir kopi mooka latte">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <ellipse cx="100" cy="150" rx="58" ry="11" fill="#e6d7c4"/><ellipse cx="100" cy="147" rx="58" ry="11" fill="#f2e8da"/>
+  <rect x="58" y="84" width="84" height="58" rx="13" fill="#faf5ee"/><rect x="58" y="120" width="84" height="22" rx="13" fill="#f1e7d9"/><path d="M140 98h9a15 15 0 0 1 0 30h-9" fill="none" stroke="#f2e9dd" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="100" cy="84" rx="42" ry="13" fill="#fdfaf6"/><ellipse cx="100" cy="84" rx="42" ry="13" fill="none" stroke="#e2d5c3" stroke-width="2"/><ellipse cx="100" cy="85" rx="35" ry="10" fill="#a9714b"/>
+  <ellipse cx="100" cy="85" rx="27" ry="7.5" fill="#f3e2cc"/>
+  <path d="M100 88c-9-6-14-2-14 3s11 5 14-3zm0 0c9-6 14-2 14 3s-11 5-14-3z" fill="#fdf7ee"/>
+  <path d="M88 62c0-10 9-10 9-20s-9-10-9-20" fill="none" stroke="#c9b8a4" stroke-width="4" stroke-linecap="round" opacity=".65"/><path d="M108 64c0-8 8-8 8-16s-8-8-8-16" fill="none" stroke="#c9b8a4" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+</svg>

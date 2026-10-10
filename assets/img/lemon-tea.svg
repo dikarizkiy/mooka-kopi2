@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi gelas lemon tea">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <path d="M70 60h56l-4 84a14 14 0 0 1-14 12H88a14 14 0 0 1-14-12l-4-84z" fill="#eef4f2" opacity=".9"/>
+  <path d="M74 88h48l-3 56a10 10 0 0 1-10 8H87a10 10 0 0 1-10-8l-3-56z" fill="#e3c15e"/>
+  <rect x="66" y="54" width="64" height="10" rx="5" fill="#d7e4e1"/>
+  <circle cx="88" cy="118" r="13" fill="#f6e08a" stroke="#e0c25f" stroke-width="2"/>
+  <circle cx="112" cy="136" r="11" fill="#f6e08a" stroke="#e0c25f" stroke-width="2"/>
+  <path d="M80 54l8-16" stroke="#cfd8c9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M74 76h44" stroke="#fff" stroke-width="3" opacity=".4"/>
+</svg>

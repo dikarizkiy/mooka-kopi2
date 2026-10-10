@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi seduh V60 dengan carafe">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <rect x="66" y="142" width="68" height="8" rx="4" fill="#d9c7b1"/>
+  <path d="M62 104h76l-6 34a16 16 0 0 1-15 10H83a16 16 0 0 1-15-10l-6-34z" fill="#eef4f6" opacity=".9"/>
+  <path d="M67 120h66l-4 18a12 12 0 0 1-11 8H82a12 12 0 0 1-11-8l-4-18z" fill="#b5824f"/>
+  <path d="M52 44h96L100 108 52 44z" fill="#f7f1e8"/>
+  <path d="M52 44h96L100 108 52 44z" fill="none" stroke="#ded0bd" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M62 52h76L100 96 62 52z" fill="#c99a63"/>
+  <rect x="86" y="106" width="28" height="10" rx="4" fill="#e2d5c3"/>
+  <path d="M92 34c0-7 6-7 6-13" fill="none" stroke="#c9b8a4" stroke-width="3.5" stroke-linecap="round" opacity=".5"/>
+</svg>

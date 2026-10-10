@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi roti banana walnut">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="150" rx="60" ry="9" fill="#8a5a2b" opacity=".12"/>
+  <path d="M46 78h108a10 10 0 0 1 10 10v46a14 14 0 0 1-14 14H50a14 14 0 0 1-14-14V88a10 10 0 0 1 10-10z" fill="#e0b477"/>
+  <path d="M46 78h108a10 10 0 0 1 10 10v10H36V88a10 10 0 0 1 10-10z" fill="#efc78f"/>
+  <circle cx="72" cy="118" r="7" fill="#a9723c"/>
+  <circle cx="104" cy="126" r="6" fill="#a9723c"/>
+  <circle cx="132" cy="114" r="6.5" fill="#a9723c"/>
+  <circle cx="88" cy="102" r="4.5" fill="#b87f45" opacity=".8"/>
+  <circle cx="120" cy="142" r="4" fill="#b87f45" opacity=".8"/>
+</svg>

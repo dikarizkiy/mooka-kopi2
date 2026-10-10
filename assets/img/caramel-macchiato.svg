@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi gelas caramel macchiato dingin">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="170" rx="56" ry="9" fill="#4a2c17" opacity=".13"/>
+  <path d="M64 44h72l-8 108a12 12 0 0 1-12 10H84a12 12 0 0 1-12-10L64 44z" fill="#eef3f5" opacity=".9"/>
+  <path d="M69 74h62l-6 78a10 10 0 0 1-10 8H85a10 10 0 0 1-10-8l-6-78z" fill="#e3c9a6"/>
+  <path d="M70 100h60l-4 52a9 9 0 0 1-9 7H83a9 9 0 0 1-9-7l-4-52z" fill="#c79a6b"/>
+  <path d="M74 96h52" stroke="#a9714b" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <rect x="104" y="34" width="8" height="30" rx="4" fill="#e2574c" transform="rotate(14 108 49)"/>
+  <rect x="62" y="40" width="76" height="10" rx="5" fill="#dbe6ea" opacity=".95"/>
+  <rect x="78" y="84" width="14" height="14" rx="3" fill="#fff" opacity=".45" transform="rotate(-12 85 91)"/>
+</svg>

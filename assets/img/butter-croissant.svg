@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Ilustrasi butter croissant">
+  <title>Kopi Mooka</title>
+<ellipse cx="100" cy="146" rx="62" ry="9" fill="#8a5a2b" opacity=".12"/>
+  <path d="M36 122c6-30 22-48 42-48s30 12 34 30c2 8-2 16-8 20-10 7-24 10-36 10s-26-3-32-12z" fill="#dfa862"/>
+  <path d="M46 118c8-26 20-40 34-40s24 12 28 28" fill="none" stroke="#f0c48c" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <path d="M78 78c0 16 2 30 6 42" fill="none" stroke="#c98c47" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M100 76c0 18-2 32-6 46" fill="none" stroke="#c98c47" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M122 78c-2 16-6 30-12 42" fill="none" stroke="#c98c47" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="100" cy="140" rx="46" ry="8" fill="#c98c47" opacity=".25"/>
+</svg>

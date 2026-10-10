@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161616">
+  
+  <meta name="description" content="Foto menu Kopi Mooka: menu minuman, menu kafe, dan menu hangat. Lihat semua menu di galeri foto.">
+  <title>Menu dan Harga - Kopi Mooka</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Kopi Mooka">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+  <noscript>
+    <style>
+      .js-warning { display: block !important; }
+    </style>
+  </noscript>
+</head>
+<body>
+
+  <div class="splash" id="splash" role="status" aria-label="Memuat Kopi Mooka">
+    <img class="splash__img" src="assets/img/loading-kopi-mooka.jpeg" alt="Kopi Mooka" width="399" height="501">
+    <span class="splash__loader" aria-hidden="true"></span>
+    <p class="splash__percent" role="status">Memuat 0%</p>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logoo.png" alt="Logo Kopi Mooka" width="40" height="40">
+        <span class="brand__text">
+          <strong>Kopi Mooka</strong>
+          <small>Roastery &amp; Kafe</small>
+        </span>
+      </a>
+      <button class="navtoggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="topnav">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="topnav" id="topnav">
+        <a href="index.html">Beranda</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="wrap pagehead__inner">
+      <p class="eyebrow">Menu</p>
+      <h1>Menu Minuman</h1>
+      <p>Semua menu kami ada di tiga foto di bawah.</p>
+    </div>
+  </section>
+
+  <main class="wrap section">
+    <div class="menugallery">
+      <img class="menuphoto__img" src="assets/img/menu-kafe.jpg" alt="Menu kafe Kopi Mooka" loading="lazy" width="1600" height="1067">
+      <img class="menuphoto__img" src="assets/img/menu-hangat.jpg" alt="Menu kafe hangat Kopi Mooka" loading="lazy" width="1600" height="840">
+      <img class="menuphoto__img" src="assets/img/menu-minuman.jpg" alt="Menu minuman Kopi Mooka" loading="lazy" width="1600" height="1067">
+    </div>
+  </main>
+
+  <section class="band cta">
+    <div class="wrap">
+      <p class="eyebrow">Mau pesan dalam jumlah besar?</p>
+      <h2>Kami Bisa Kirim ke Kantor</h2>
+      <p>Untuk pesanan 20 cup atau lebih, hubungi kami minimal H-1 agar biji dan susu kami siapkan.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="kontak.html">Pesan Lewat Kontak</a>
+        <a class="btn btn--ghost" href="tentang.html">Tentang Kopi Mooka</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p>&copy; <span id="year">2026</span> Kopi Mooka. <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.</p>
+      <p class="foot__meta"><a href="mailto:halo@kopimooka.id">halo@kopimooka.id</a></p>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalName">
+      <button class="modal__close" type="button" data-close aria-label="Tutup">&times;</button>
+      <div class="modal__media" id="modalMedia"></div>
+      <div class="modal__body">
+        <p class="eyebrow" id="modalCat"></p>
+        <h3 id="modalName"></h3>
+        <p id="modalDesc"></p>
+        <ul class="modal__notes" id="modalNotes"></ul>
+        <div class="ukuran" id="modalUkuran" role="group" aria-label="Pilihan ukuran" hidden></div>
+        <p class="modal__price"><span id="modalPrice"></span></p>
+        <div class="modal__actions">
+          <div class="qty" role="group" aria-label="Jumlah pesanan">
+            <button type="button" id="modalMinus" aria-label="Kurangi jumlah">&minus;</button>
+            <span id="modalQty" aria-live="polite">1</span>
+            <button type="button" id="modalPlus" aria-label="Tambah jumlah">+</button>
+          </div>
+          <button class="btn btn--ghost" type="button" data-close>Batal</button>
+          <button class="btn btn--primary" type="button" id="modalAdd">Tambah ke Pesanan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <button class="totop" id="totop" type="button" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+</body>
+</html>

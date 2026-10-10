@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161616">
+  
+  <meta name="description" content="Kopi Mooka: roastery dan kafe di Bandung. WiFi, parkir, beans retail, dan kelas seduh tersedia di Jl. Goria Mooka.">
+  <title>Tentang Kami - Kopi Mooka</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Kopi Mooka">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+</head>
+<body>
+
+  <div class="splash" id="splash" role="status" aria-label="Memuat Kopi Mooka">
+    <img class="splash__img" src="assets/img/loading-kopi-mooka.jpeg" alt="Kopi Mooka" width="399" height="501">
+    <span class="splash__loader" aria-hidden="true"></span>
+    <p class="splash__percent" role="status">Memuat 0%</p>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logoo.png" alt="Logo Kopi Mooka" width="40" height="40">
+        <span class="brand__text">
+          <strong>Kopi Mooka</strong>
+          <small>Roastery &amp; Kafe</small>
+        </span>
+      </a>
+      <button class="navtoggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="topnav">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="topnav" id="topnav">
+        <a href="index.html">Beranda</a>
+        <a href="menu.html">Menu</a>
+        <a href="tentang.html" aria-current="page">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pagehead">
+    <div class="wrap pagehead__inner">
+      <p class="eyebrow">Tentang</p>
+      <h1>Dibuat Slowly, Diminum Cepat.</h1>
+      <p>Kopi arabika pilihan, disangrai tiap minggu, dan diseduh saat pesan. Temukan fasilitas kafe dan lokasi kami di bawah.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="wrap section">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow">Fasilitas</p>
+          <h2>Yang Bisa Anda Gunakan</h2>
+        </div>
+        <p class="section__note">Semua tersedia di <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.</p>
+      </div>
+      <dl class="infos">
+        <div class="info">
+          <dt>WiFi</dt>
+          <dd>KopiMooka-Guest, tanpa kata sandi.</dd>
+        </div>
+        <div class="info">
+          <dt>Parkir</dt>
+          <dd>Slot motor di depan dan parkir mobil di belakang.</dd>
+        </div>
+        <div class="info">
+          <dt>Beans retail</dt>
+          <dd>Biji 200 gram, dapat digiling sesuai kebutuhan.</dd>
+        </div>
+        <div class="info">
+          <dt>Pelatihan</dt>
+          <dd>Kelas seduh dasar tiap Sabtu pagi.</dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <section class="band cta">
+    <div class="wrap">
+      <p class="eyebrow">Langkah selanjutnya</p>
+      <h2>Lihat Menu dan Harga</h2>
+      <p>Semua menu, harga, dan catatan bahan bisa dibaca di satu halaman.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="menu.html">Buka Menu</a>
+        <a class="btn btn--ghost" href="kontak.html">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p>&copy; <span id="year">2026</span> Kopi Mooka. <a class="maplink" href="https://maps.app.goo.gl/m7u4JT6Z7UGW8vhW9" target="_blank" rel="noopener">Jl. Goria Mooka</a>.</p>
+      <p class="foot__meta"><a href="mailto:halo@kopimooka.id">halo@kopimooka.id</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <button class="totop" id="totop" type="button" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+</body>
+</html>
